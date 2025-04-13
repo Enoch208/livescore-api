@@ -13,10 +13,10 @@ A Node.js API that provides real-time football match data by scraping live score
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/Enoch208/livescore-api.git
 
 # Install dependencies
-npm install
+npm install 
 ```
 
 ## Required Dependencies
