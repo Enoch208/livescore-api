@@ -646,7 +646,6 @@ async function scrapeMatchDetails(matchUrl) {
     
     return {
       timestamp: new Date().toISOString(),
-      source: matchUrl,
       details: matchDetails
     };
   } catch (error) {

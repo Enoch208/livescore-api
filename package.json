@@ -1,0 +1,20 @@
+{
+    "name": "football-live-api",
+    "version": "1.0.0",
+    "description": "API for live football match data",
+    "main": "ff.js",
+    "scripts": {
+      "start": "node api.js",
+      "dev": "nodemon api.js"
+    },
+    "dependencies": {
+      "axios": "^1.8.4",
+      "cheerio": "^1.0.0",
+      "cors": "^2.8.5",
+      "express": "^5.1.0",
+      "fs": "^0.0.1-security",
+      "path": "^0.12.7",
+      "puppeteer": "^24.6.1"
+    }
+  }
+  
