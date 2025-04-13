@@ -73,24 +73,7 @@ GET /api/matches
         "hasLivestream": true,
         "link": "https://azscore.ng/football/stats/123456"
       },
-      "teams": {
-        "home": {
-          "form": ["W", "W", "D", "L", "W"],
-          "scorers": [
-            { "name": "Bruno Fernandes", "time": "23'" },
-            { "name": "Marcus Rashford", "time": "36'" }
-          ]
-        },
-        "away": {
-          "form": ["W", "D", "W", "W", "L"],
-          "scorers": [
-            { "name": "Mohamed Salah", "time": "42'" }
-          ]
-        }
-      }
     }
-  ]
-}
 ```
 
 ### Get Match Details
@@ -208,6 +191,3 @@ You can modify the following constants in the code to adjust the API behavior:
 - `CACHE_DURATION`: Cache duration for match list (in milliseconds)
 - `MATCH_DETAILS_CACHE_DURATION`: Cache duration for match details (in milliseconds)
 
-## License
-
-[MIT](LICENSE) 
