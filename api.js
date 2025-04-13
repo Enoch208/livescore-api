@@ -354,16 +354,6 @@ async function scrapeMatches() {
               },
               hasLivestream: hasLivestream,
               link: matchLink ? `https://azscore.ng${matchLink.replace('/game/', '/stats/')}` : ''
-            },
-            teams: {
-              home: {
-                form: homeForm,
-                scorers: homeScorers
-              },
-              away: {
-                form: awayForm,
-                scorers: awayScorers
-              }
             }
           });
         } catch (error) {
